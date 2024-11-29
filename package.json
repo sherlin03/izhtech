@@ -1,10 +1,13 @@
 {
+  "homepage": "https://sherlin03.github.io/izhtech",
   "name": "izhtech-latest",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build -f",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -50,6 +53,7 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "gh-pages": "^6.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.11",
     "webpack": "^5.89.0",
