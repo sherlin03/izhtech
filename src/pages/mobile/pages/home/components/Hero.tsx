@@ -6,7 +6,7 @@ export default function Hero() {
         <>
             <div className="bg-white relative w-full mx-auto mb-0 md:mb-24 ">
                 <div className="relative container mx-auto px-4 sm:px-4 md:px-2 lg:px-4 "> {/* Adjust padding for smaller screens */}
-                    <img src="/images/mobile/Ellipse_7809.png" className="w-4 md:w-4 lg:w-4" alt="" />
+                    <img src="images/mobile/Ellipse_7809.png" className="w-4 md:w-4 lg:w-4" alt="" />
                     
                     <div className="w-full md:w-5/6 mx-auto">
                         <div className="grid grid-cols-12 gap-6 block">
@@ -39,7 +39,7 @@ export default function Hero() {
                             
                             {/* Right Image Section */}
                             <div className="col-span-12 md:col-span-6 lg:col-span-5 flex justify-center md:justify-end">
-                                <img src="/images/mobile/heroimg1.png" alt="heroimg" className="relative md:absolute -top-10 md:-top-20 right-0 md:-right-16  block " 
+                                <img src="images/mobile/heroimg1.png" alt="heroimg" className="relative md:absolute -top-10 md:-top-20 right-0 md:-right-16  block " 
                                     style={{ height: 'auto', width: '100%', maxWidth: '650px' }} data-aos="fade-left" data-aos-duration="1000"/>
                             </div>
                         </div>

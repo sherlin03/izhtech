@@ -43,7 +43,7 @@ export default function banner() {
           variants="blue-short-line-left"
         />
        
-          <img className=" sm:w-[50%] lg:w-[100%] z-10 lg:m-0 mx-auto h-auto" src="/images/bannar1/img.png" />
+          <img className=" sm:w-[50%] lg:w-[100%] z-10 lg:m-0 mx-auto h-auto" src="/izhtech/images/bannar1/img.png" />
         </motion.div>
       </div>
 

@@ -63,7 +63,7 @@ export default function MobHome() {
     <div className="w-full mx-auto rounded-3xl appfeature">
         {/* About Section */}
         <div className="rounded-3xl w-full mx-auto mt-8 mb-8 aboutcolor  relative">
-            <img src="/images/mobile/abouthalfcircle.png" alt="" className="w-8 absolute top-7" />
+            <img src="images/mobile/abouthalfcircle.png" alt="" className="w-8 absolute top-7" />
 
             <div className="container w-5/6 mx-auto ">
             <div className="grid grid-cols-12  gap-6 aboutheight">
@@ -121,7 +121,7 @@ export default function MobHome() {
                 <div className="col-span-12 lg:col-span-8 2xl:col-span-9 relative" data-aos="zoom-out-down" data-aos-duration="1000">
     {/* First Image */}
     <img 
-    src="/images/mobile/aboutcircle.png" 
+    src="images/mobile/aboutcircle.png" 
     alt="" 
     className="
         absolute w-40 h-40 hidden lg:block 
@@ -133,7 +133,7 @@ export default function MobHome() {
 />
     {/* Second Image */}
     <img 
-        src="/images/mobile/aboutmob.png" 
+        src="images/mobile/aboutmob.png" 
         alt="" 
         className="
         absolute 
@@ -156,13 +156,13 @@ export default function MobHome() {
                 <div className="container w-5/6 mx-auto relative">
                     <div className="flex justify-between items-center">
                         <div className="applinerelative" data-aos="fade-up-right" data-aos-duration="1000">
-                            <img src="/images/mobile/app_line.png" alt="underline" className="w-28 applineabs" />
+                            <img src="images/mobile/app_line.png" alt="underline" className="w-28 applineabs" />
                             <p className="mt-10 text-3xl font-bold font-body">App Features</p>
                         </div>
                         {/* <div>
                             <span className="inline-flex">
-                                <img src="/images/mobile/apparrow2.png" alt="left" className="w-6 h-6 me-5" />
-                                <img src="/images/mobile/apparrow1.png" alt="Right" className="w-6 h-6" />
+                                <img src="images/mobile/apparrow2.png" alt="left" className="w-6 h-6 me-5" />
+                                <img src="images/mobile/apparrow1.png" alt="Right" className="w-6 h-6" />
                             </span>
                         </div> */}
                     </div>
@@ -170,25 +170,25 @@ export default function MobHome() {
                     {/* Features Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-10" data-aos="fade-up" data-aos-duration="1000">
     {/* <div className="relative px-2 py-4 rounded-3xl transition-all duration-300 hover:shadow-2xl hover:bg-[rgba(191,255,196,0.76)] hover:outline hover:outline-[rgba(75,255,137,0.5)] hover:transform hover:rotate-3 hover:scale-105">
-        <img src="/images/mobile/appround1.png" alt="" className="absolute top-0 left-0 mb-3" />
+        <img src="images/mobile/appround1.png" alt="" className="absolute top-0 left-0 mb-3" />
         <p className="text-xl font-semibold mt-9">Real-Time Court Availability</p>
         <p className="mt-5 text-base">Instantly see which courts are available and manage bookings on the go.</p>
     </div>
 
     <div className="relative px-2 py-4 rounded-3xl transition-all duration-300   hover:shadow-2xl hover:outline hover:outline-[#eecbdb] hover:transform hover:rotate-3 hover:scale-105 hover:bg-[#FFECF5]">
-        <img src="/images/mobile/pinkroundicon.png" alt="" className="absolute top-0 left-0 mb-3" />
+        <img src="images/mobile/pinkroundicon.png" alt="" className="absolute top-0 left-0 mb-3" />
         <p className="text-xl font-semibold mt-9">Comprehensive Calendar View</p>
         <p className="mt-5 text-base">Easily view and manage daily, weekly, or monthly bookings with a user-friendly calendar interface. </p>
     </div>
 
     <div className="relative px-2 py-4 rounded-3xl transition-all duration-300 hover:bg-[rgba(115,138,255,0.41)] hover:shadow-2xl hover:outline hover:outline-[rgba(80,80,255,0.6)] hover:transform hover:rotate-3 hover:scale-105">
-        <img src="/images/mobile/appbell.png" alt="" className="absolute top-0 left-0 mb-3" />
+        <img src="images/mobile/appbell.png" alt="" className="absolute top-0 left-0 mb-3" />
         <p className="text-xl font-semibold mt-9">Automated Notifications</p>
         <p className="mt-5 text-base">Send booking confirmations, reminders, and cancellation notices automatically to your clients.</p>
     </div>
 
     <div className="relative px-2 py-4 rounded-3xl transition-all duration-300 hover:bg-[rgba(255,214,109,0.6)] hover:shadow-2xl hover:outline hover:outline-[rgba(255,189,85,0.6)] hover:transform hover:rotate-3 hover:scale-105">
-        <img src="/images/mobile/appbuild.png" alt="" className="absolute top-0 left-0 mb-3" />
+        <img src="images/mobile/appbuild.png" alt="" className="absolute top-0 left-0 mb-3" />
         <p className="text-xl font-semibold mt-9">Flexible Payment Processing</p>
         <p className="mt-5 text-base">Accept payments securely and offer a variety of payment options including credit cards and mobile payments.</p>
     </div> */}
@@ -196,7 +196,7 @@ export default function MobHome() {
 
                 </div>
 
-                <img src="/images/mobile/appdesign.png" alt="" className="absolute top-20 right-0 w-8" />
+                <img src="images/mobile/appdesign.png" alt="" className="absolute top-20 right-0 w-8" />
             </div>
         </div>
     </div>
@@ -207,17 +207,17 @@ export default function MobHome() {
         {/* Benefits starts */}
         <section className="relative ">
   <div className="w-full relative mx-auto  applinerelative">
-    <img src="/images/mobile/ben2.png" alt="" className="absolute bottom-36 w-8 left-0" />
+    <img src="images/mobile/ben2.png" alt="" className="absolute bottom-36 w-8 left-0" />
 
     <div className="container w-5/6 mx-auto relative">
-      <img src="/images/mobile/ben8.svg" alt="" className="hidden lg:block absolute -top-36 left-80" />
-      <img src="/images/mobile/ben1.png" alt="" className="hidden lg:block absolute -top-10 -left-12 " />
+      <img src="images/mobile/ben8.svg" alt="" className="hidden lg:block absolute -top-36 left-80" />
+      <img src="images/mobile/ben1.png" alt="" className="hidden lg:block absolute -top-10 -left-12 " />
 
       <div className="relative text-center lg:text-left">
         <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
-        <img src="/images/mobile/ben9.png" alt="underline" className="w-24 absolute top-8 left-1/2 transform -translate-x-1/2 lg:left-5 lg:translate-x-0" />
+        <img src="images/mobile/ben9.png" alt="underline" className="w-24 absolute top-8 left-1/2 transform -translate-x-1/2 lg:left-5 lg:translate-x-0" />
         <p className="mt-8 text-3xl font-bold font-body">Benefits</p>
         </div>
         
@@ -230,12 +230,12 @@ export default function MobHome() {
      data-aos-offset="250"
      data-aos-easing="ease-in-sine" >
             <div className="h-36 md:h-36 lg:h-40">
-              <img src="/images/mobile/ben3.png" alt="" className="md:float-right mx-auto" /><br /><br />
+              <img src="images/mobile/ben3.png" alt="" className="md:float-right mx-auto" /><br /><br />
               <p className="text-lg font-bold mt-[-1rem] md:mt-4">Maximize Revenue</p>
               <p className="text-sm">Optimize court usage with dynamic pricing and promotional offers.</p>
             </div>
             <div className="pt-4 h-36 md:h-36 lg:h-40 benmobile">
-              <img src="/images/mobile/ben4.png" alt="" className="mt-4 md:mt-0 md:float-right mx-auto" /><br /><br />
+              <img src="images/mobile/ben4.png" alt="" className="mt-4 md:mt-0 md:float-right mx-auto" /><br /><br />
               <p className="text-lg font-bold mt-[-1rem] md:mt-4 ">Reduce Administrative Work</p>
               <p className="text-sm">Save time and reduce errors with automated bookings, notifications, and payment processing.</p>
             </div>
@@ -252,12 +252,12 @@ export default function MobHome() {
      data-aos-offset="200"
      data-aos-duration="500">
             <div className="h-36 md:h-40 lg:h-44 xl:h-44">
-              <img src="/images/mobile/ben5.png" alt="" className="md:float-left mx-auto" /><br /><br />
+              <img src="images/mobile/ben5.png" alt="" className="md:float-left mx-auto" /><br /><br />
               <p className="text-lg font-bold mt-[-1rem] md:mt-4">Enhance Member Experience</p>
               <p className="text-sm">Provide a seamless booking experience that keeps your members satisfied and coming back.</p>
             </div>
             <div className="pt-7 h-36 md:h-36 lg:h-40 benmobile">
-              <img src="/images/mobile/ben6.png" alt="" className="mt-7 md:mt-0 md:float-left mx-auto" /><br /><br />
+              <img src="images/mobile/ben6.png" alt="" className="mt-7 md:mt-0 md:float-left mx-auto" /><br /><br />
               <p className="text-lg font-bold mt-[-1rem] md:mt-4">Increase Operational Efficiency</p>
               <p className="text-sm">Simplify your day-to-day operations with easy-to-use tools and real-time updates.</p>
             </div>
@@ -278,7 +278,7 @@ export default function MobHome() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="relative" data-aos="fade-down-right" data-aos-duration="1500">
           
-          <img src="/images/mobile/board1.png" alt="" className="absolute hidden lg:block top-3 left-0 mx-auto" />
+          <img src="images/mobile/board1.png" alt="" className="absolute hidden lg:block top-3 left-0 mx-auto" />
           <div data-aos="fade-righ" data-aos-duration="1000" className="relative">
           <p className="pt-16 font-bold text-3xl text-center lg:text-left relativeboard relative ">Dashboard
               
@@ -317,11 +317,11 @@ export default function MobHome() {
     <div className="relative">
       <img src="images/mobile/work7.png" alt="" className="hidden lg:block  absolute -bottom-24 right-0 w-full h-[650px]" />
       <div className="container w-5/6 mx-auto relative screenrelative">
-      {/* <img src="images/mobile/work3.png" alt="" className="workdot w-7" /> */}
+      {/* <img src="bile/work3.png" alt="" className="workdot w-7" /> */}
       <div className="relative">
         <img src="images/mobile/work2.png" alt="" className="absolute hidden lg:block -top-20 left-1/2 transform -translate-x-1/2 lg:left-40 lg:translate-x-0" />
         <div data-aos="fade-down-right" data-aos-duration="1500">
-        <img src="/images/mobile/work1.png" alt="underline" className="w-24 absolute top-8 left-1/2 transform -translate-x-1/2 lg:left-6 lg:translate-x-0" />
+        <img src="images/mobile/work1.png" alt="underline" className="w-24 absolute top-8 left-1/2 transform -translate-x-1/2 lg:left-6 lg:translate-x-0" />
         <p className="mt-10 text-3xl font-bold text-center lg:text-left">Workflow</p>
         </div>
 
@@ -344,7 +344,7 @@ export default function MobHome() {
         </div>
 
   {/* Main content */}
-        {/* <img src="images/mobile/work11.png" alt="" className="w-60 h-96 relative z-10" /> */}
+        {/* <img src="bile/work11.png" alt="" className="w-60 h-96 relative z-10" /> */}
         <img src="images/mobile/work8.png" alt="" className="hidden lg:block absolute bottom-0 -right-16 w-3  " />
     </div>
         </div>
@@ -352,7 +352,7 @@ export default function MobHome() {
         <div className="flex justify-center lg:justify-end">
          
           <LinkButton
-            href="/mobilescreen"
+            href="#/mobilescreen"
             size={'lg'}
             className="px-9 py-4 w-48 me-6 lg:me-8 xl:me-12 2xl:me-28 text-sm text-white rounded mt-10 z-10"
             style={{ background: 'linear-gradient(326deg, #5877F8 37.65%, #FF20B2 78.67%, #FFBB03 102.38%)' }}>
@@ -384,7 +384,7 @@ export default function MobHome() {
 
         <div className="relative">
           <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <img src="/images/mobile/user2.png" alt="underline" className="w-20 sm:w-24 md:w-28 absolute pt-1 top-[85px] left-20  lg:top-[90px] lg:left-28 md:top-[96px] md:left:24 " />
+          <img src="images/mobile/user2.png" alt="underline" className="w-20 sm:w-24 md:w-28 absolute pt-1 top-[85px] left-20  lg:top-[90px] lg:left-28 md:top-[96px] md:left:24 " />
           <p className="text-xl sm:text-2xl md:text-3xl font-bold font-body ps-1 pt-16 lg:pt-14">User Feedback Start</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">

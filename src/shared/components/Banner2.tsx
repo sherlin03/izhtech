@@ -35,7 +35,7 @@ export default function Webapp(props:webProps) {
                 </button>
             </div>
             <div className="flex bg-transparent sm:w-1/2 md:w-full lg:w-1/2">
-                <img src="images/servicepage/img2.png" alt="Example Image" className="w-full h-auto" />
+                <img src="/izhtech/images/servicepage/img2.png" alt="Example Image" className="w-full h-auto" />
             </div>
         </section>
     );

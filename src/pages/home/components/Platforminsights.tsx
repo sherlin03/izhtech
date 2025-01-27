@@ -8,7 +8,7 @@ export default function PlatformInsights() {
       <section className="lg:px-10 pb-16 pt-16 bg-[#F5F1F5] rounded relative">
       <div className="flex-col justify-center gap-4 px-5 my-auto h-4/5 lg:flex lg:flex-row">
         <div className="flex flex-col self-center h-full px-2 mx-auto lg:w-3/6 sm:w-full">
-        <img className="justify-center h-auto mx-auto " src="/images/platforminsights/img.png" alt="pic" />
+        <img className="justify-center h-auto mx-auto " src="/izhtech/images/platforminsights/img.png" alt="pic" />
         </div>
           <div className="lg:w-3/6 sm:w-[75%] sm:px-2 lg:px-2 mx-auto">
             <div className="flex flex-col justify-center h-full pb-1">

@@ -39,7 +39,7 @@ export default function Hero() {
           >
             <img
               className=" sm:w-[50%] md:w-[80%] lg:w-[75%] lg:m-0 mx-auto h-auto "
-              src="/images/hero/bg-1.png"
+              src="/izhtech/images/hero/bg-1.png"
             />
             {/* <Lottie animationData={dot} loop={true} className="absolute bottom-[-14rem] w-[75%] left-[5rem]"/> */}
           </motion.div>

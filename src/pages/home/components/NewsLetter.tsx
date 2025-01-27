@@ -34,7 +34,7 @@ export default function NewsLetter() {
                   placeholder="Your Email Id"
                   required
                 /> */}
-                <LinkButton href="./contact"
+                <LinkButton href=".#/contact"
                   className="w-64 h-10 text-white bg-gray-800"
                  
                 >

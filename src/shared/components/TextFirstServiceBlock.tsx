@@ -27,7 +27,7 @@ export default function TextFirstServiceBlock(props: ServiceBlockProps) {
             <div className="grid justify-center p-6 text-white bg-indigo-950 md:pr-32">
               <div className="flex items-center ">
                 <img
-                  src="images/servicepage/Icon2.png"
+                  src="/izhtech/images/servicepage/Icon2.png"
                   alt="Example Image"
                   className="w-8 h-8"
                 />
@@ -44,7 +44,7 @@ export default function TextFirstServiceBlock(props: ServiceBlockProps) {
             <div className="grid justify-center p-6 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 md:pr-32">
               <div className="flex items-center ">
                 <img
-                  src="images/servicepage/Icon1.png"
+                  src="/izhtech/images/servicepage/Icon1.png"
                   alt="Example Image" 
                   className="w-8 h-8"
                 />

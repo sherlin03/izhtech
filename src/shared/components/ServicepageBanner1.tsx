@@ -9,7 +9,7 @@ export default function banner(props:{serviceName:string, description:string}) {
                     <div className="container flex items-end justify-center md:justify-end">
                         <div className="grid justify-center p-6 text-white bg-indigo-950 md:pr-32">
                             <div className="flex items-center ">
-                                <img src="images/servicepage/Icon2.png" alt="Example Image" className="w-8 h-8" />
+                                <img src="/izhtech/images/servicepage/Icon2.png" alt="Example Image" className="w-8 h-8" />
                                 <h1 className="text-3xl font-bold lg:text-4xl">35+</h1>
                             </div>
                             <p className="pt-2 text-xs">
@@ -18,7 +18,7 @@ export default function banner(props:{serviceName:string, description:string}) {
                         </div>
                         <div className="grid justify-center p-6 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 md:pr-32">
                             <div className="flex items-center ">
-                                <img src="images/servicepage/Icon1.png" alt="Example Image" className="w-8 h-8" />
+                                <img src="/izhtech/images/servicepage/Icon1.png" alt="Example Image" className="w-8 h-8" />
                                 <h1 className="text-3xl font-bold lg:text-4xl">28+</h1>
                             </div>
                             <p className="pt-2 text-xs">
@@ -35,7 +35,7 @@ export default function banner(props:{serviceName:string, description:string}) {
                         <Accordion.Panel>
                             <Accordion.Title className="text-black ">
                                 <span className="flex items-center">
-                                    <img src="/images/process/Vector.png" alt="image" className="w-4 h-4 mr-2" />
+                                    <img src="/izhtech/images/process/Vector.png" alt="image" className="w-4 h-4 mr-2" />
                                     Website & Mobile App Design
                                 </span>
                             </Accordion.Title>
@@ -47,7 +47,7 @@ export default function banner(props:{serviceName:string, description:string}) {
                         <Accordion.Panel>
                             <Accordion.Title className="text-black ">
                                 <span className="flex items-center">
-                                    <img src="/images/process/Vector.png" alt="image" className="w-4 h-4 mr-2" />
+                                    <img src="/izhtech/images/process/Vector.png" alt="image" className="w-4 h-4 mr-2" />
                                     Motion Graphics & Animation
                                 </span>
                             </Accordion.Title>

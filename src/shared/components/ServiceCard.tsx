@@ -37,7 +37,7 @@ export default function ServiceCard() {
         <img
           alt="Bonnie image"
           height="96"
-          src="/images/people/profile-picture-3.jpg"
+          src="/izhtech/images/people/profile-picture-3.jpg"
           width="96"
           className="mb-3 rounded-full shadow-lg"
         />

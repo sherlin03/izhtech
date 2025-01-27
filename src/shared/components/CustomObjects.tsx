@@ -31,36 +31,36 @@ interface CustomObjectProps {
 
 function CustomObject({ variants, className }: CustomObjectProps) {
   const objectVariants = {
-    "line-purple-left": "/images/objects/purple-line-left.svg",
-    "circle-2": "/images/objects/circle-2.gif",
-    "half-dash-yellow":"/images/objects/half-dash-yellow.gif",
-    "full": "/images/objects/ful.gif",
-    "green": "/images/objects/green.gif",
-    "orange-half-circle-lines": "/images/objects/orange-half-circle-lines.svg",
-    "hero-left-full": "/images/objects/hero-full.svg",
-    "hero-left-full-gif": "/images/objects/hero-full.gif",
-    "purple-dots": "/images/objects/purple-dots.svg",
-    "blue-dots": "/images/objects/blue-dots.svg",
-    "line-orange-left": "/images/objects/orange-line-left.svg",
-    "long-line-orange-left": "/images/objects/orange-line-long-left.svg",
-    "long-line-teal-left": "/images/objects/teal-line-long-left.svg",
-    "green-disk": "/images/objects/green-disk.svg",
-    "orange-disk": "/images/objects/orange-right.svg",
-    "line-teal-up": "/images/objects/line-up-teal.svg",
-    "teal-disk": "/images/objects/teal-disk.svg",
-    "purple-line-small-right": "/images/objects/purple-line-right-small.gif",
-    "vector_one": "/images/objects/Vector1.png",
-    "vector_fixed": "/images/objects/purple-line-right-small-rename.svg",
-    "blue-short-line-left": "/images/objects/blue-short-line-left.gif",
-    "text-rotate": "/images/objects/text-rotate.gif",
-    "green-doted": "/images/objects/green-doted.png",
-    "yellow-doted" : "/images/objects/yellow-doted.png"
+    "line-purple-left": "/izhtech/images/objects/purple-line-left.svg",
+    "circle-2": "/izhtech/images/objects/circle-2.gif",
+    "half-dash-yellow":"/izhtech/images/objects/half-dash-yellow.gif",
+    "full": "/izhtech/images/objects/ful.gif",
+    "green": "/izhtech/images/objects/green.gif",
+    "orange-half-circle-lines": "/izhtech/images/objects/orange-half-circle-lines.svg",
+    "hero-left-full": "/izhtech/images/objects/hero-full.svg",
+    "hero-left-full-gif": "/izhtech/images/objects/hero-full.gif",
+    "purple-dots": "/izhtech/images/objects/purple-dots.svg",
+    "blue-dots": "/izhtech/images/objects/blue-dots.svg",
+    "line-orange-left": "/izhtech/images/objects/orange-line-left.svg",
+    "long-line-orange-left": "/izhtech/images/objects/orange-line-long-left.svg",
+    "long-line-teal-left": "/izhtech/images/objects/teal-line-long-left.svg",
+    "green-disk": "/izhtech/images/objects/green-disk.svg",
+    "orange-disk": "/izhtech/images/objects/orange-right.svg",
+    "line-teal-up": "/izhtech/images/objects/line-up-teal.svg",
+    "teal-disk": "/izhtech/images/objects/teal-disk.svg",
+    "purple-line-small-right": "/izhtech/images/objects/purple-line-right-small.gif",
+    "vector_one": "/izhtech/images/objects/Vector1.png",
+    "vector_fixed": "/izhtech/images/objects/purple-line-right-small-rename.svg",
+    "blue-short-line-left": "/izhtech/images/objects/blue-short-line-left.gif",
+    "text-rotate": "/izhtech/images/objects/text-rotate.gif",
+    "green-doted": "/izhtech/images/objects/green-doted.png",
+    "yellow-doted" : "/izhtech/images/objects/yellow-doted.png"
   };
 
  
 
   const imageSrc: string =
-    objectVariants[variants] || "/images/objects/purple-line-left.svg"; 
+    objectVariants[variants] || "/izhtech/images/objects/purple-line-left.svg"; 
 
   return (
     <img

@@ -5,30 +5,62 @@ export const menuItems: MenuItem[] = [
     id: "home",
     label: "Home",
     icon: null,
-    path: "/",
+    path: "#/",
   },
   {
     id: "about",
     label: "About Us",
     icon: null,
-    path: "/about",
+    path: "#/about",
   },
   {
     id: "service",
     label: "Service",
     icon: null,
-    path: "/service",
+    path: "#/service",
   },
+
+  {
+    id: "project",
+    label: "Project",
+    icon: null,
+    path: "/oasissportopia",
+    children: [
+      {
+        id: "oasissportopia",
+        label: "Oasis Sportopia",
+        icon: null,
+        path: "/oasissportopia",
+      },
+      {
+        id: "subha",
+        label: "Subha Dental",
+        icon: null,
+        path: "/subhadental",
+      },
+      {
+        id: "digital",
+        label: "Digital Marketing",
+        icon: null,
+        path: "/digital",
+      },
+    ],
+  },
+
+
+
+
+
   {
     id: "blog",
     label: "Blog",
     icon: null,
-    path: "/blog",
+    path: "#/blog",
   },
   {
     id: "contact",
     label: "Contact Us",
     icon: null,
-    path: "/contact",
+    path: "#/contact",
   },
 ];

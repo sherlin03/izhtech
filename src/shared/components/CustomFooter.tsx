@@ -60,6 +60,39 @@ async function saveContact(payload: any) {
               <p>Interested in working with us?</p>
               <p>hello@izhtech.com</p>
             </div>
+            <div>
+                <a
+      href="./images/pdf/izhtech_profile.pdf"
+      className="transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background flex items-center justify-center font-bold bg-indigo-950 border-1 h-11 px-3 py-6 w-60 text-sm text-white rounded mt-5 relative group"
+      download="izhtech_profile.pdf"
+      style={{
+        background:
+          "linear-gradient(326deg, rgb(88, 119, 248) 37.65%, rgb(255, 32, 178) 78.67%, rgb(255, 187, 3) 102.38%)",
+      }}
+    >
+      
+        Overview and Packages
+     
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="lucide lucide-arrow-right absolute w-4 h-4  duration-300 right-3 "
+      >
+        <path d="M5 12h14"></path>
+        <path d="m12 5 7 7-7 7"></path>
+      </svg>
+    </a>
+                </div>
+
+
+
           </div>
           <div>
             <h2 className="font-semibold text-stone-50">
@@ -122,16 +155,16 @@ async function saveContact(payload: any) {
             className="text-stone-50"
           />
           <div className="flex justify-between mt-4 list-none sm:mt-0 text-stone-50 ">
-            <Footer.Link className="text-xs text-gray-300 text-stone-50" href="./sitemap.xml">
+            <Footer.Link className="text-xs text-gray-300 text-stone-50" href=".#/sitemap.xml">
               Sitemap
             </Footer.Link>
-            <Footer.Link href="./about" className="text-xs text-gray-300 text-stone-50">
+            <Footer.Link href=".#/about" className="text-xs text-gray-300 text-stone-50">
               About Us
             </Footer.Link>
-            <Footer.Link href="./service " className="text-xs text-gray-300 text-stone-50">
+            <Footer.Link href=".#/service " className="text-xs text-gray-300 text-stone-50">
               Our Service
             </Footer.Link>
-            <Footer.Link href="./contact" className="text-xs text-gray-300 text-stone-50">
+            <Footer.Link href=".#/contact" className="text-xs text-gray-300 text-stone-50">
                Contact Us
             </Footer.Link>
             
